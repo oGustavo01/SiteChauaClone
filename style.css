@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100&family=Ubuntu&display=swap');
+
+* { 
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font-family: 'Londrina Solid', cursive;
+vertical-align: baseline;
+}
+.nav-link {
+    display: flex;
+}
+.text-lg-center {
+    background-color: #EF7E4A;
+    padding-top: 200px;
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: 'Londrina Solid', cursive;
+
+ 
+}
+.text-lg-center1 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: lighter;
+    font-family: 'Londrina Solid', cursive;
+}
+.text-sm-center {
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    font-weight: lighter;
+
+}
+p {
+    font-family: 'Nunito Sans'; 
+    color: #32451b;
+}
+/* Botão verde*/
+.btn {
+    display: flex;
+    margin-top: 230px;
+    align-items: center;
+    margin-left:50px;
+    background-color: orchid;
+}
+/* Forma Laranja*/
+.orang {
+    background-color: #EF7E4A;
+    border-radius: 0px 0px 65% 65%;
+    height: 46em;
+    color: #32451b;
+
+}
+/* Linha de separação*/
+.divider {
+    margin-top: 30px;
+    border-top: 3px solid #B9B13D;
+    border-left-width:50%;
+    border-left: 120px solid transparent; 
+    border-right: 120px solid transparent;
+}
+/* Imagem Fruta*/
+.fruta {
+    margin-top: -600px;
+    max-height: 30em;
+    transition: width 2s, height 4s, opacity 6s;
+}
+.fruta:hover {
+    width: 300px;
+    height: 250px;
+    opacity: 0.1;
+}
+/* Imagem arvore*/
+.arvore {
+    margin-top: -560px;
+    max-height: 30em;
+}
+/* Titulo nossa missão*/
+.missao {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    color: #32451b;
+    font-family: 'Nunito Sans';
+
+}
+/* Titulo preservar parte 1*/
+.preservar {
+   
+    line-height: 77px;
+    color: #437131;
+    margin-left: 100px;
+    font-family: 'Londrina Solid', cursive;
+
+}
+.text-lg-left {
+    font-size: 77px;
+    font-weight: bolder;
+    line-height: 77px;
+}
+.text-sm-left {
+
+    font-weight: lighter;
+}
+/* Titulo preservar parte 2*/
+.preservar2 {
+    font-size: 40px;
+    color: #437131;
+    margin-left: 100px;
+    font-weight:lighter ;
+    font-family: 'Londrina Solid', cursive;
+}
+.col-5 {
+    margin-right: 100px;
+    margin-top: -122px;
+    color: #32451b;
+    font-size: 18px; 
+    line-height: 26px; 
+    font-family: 'Nunito Sans'; 
+    font-weight: 400; 
+    
+}
+/* Imagem cabeça*/
+.cabeça {
+    display: column;
+    margin-left: 50px;
+}
+/*Titulo o que fazemos*/
+.Que {
+    padding-top:60px;
+    color: #32451b; 
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 900; 
+    letter-spacing: 9px; 
+    font-size: 13px;
+}
+/*Titulo conhecer mais*/
+.conhecerMais h1 {
+    font-size: 41px;
+    font-weight: 1000;
+    line-height: 41px;
+    font-family: 'Londrina Solid', cursive;
+    color: black;
+    margin-right: 60px;
+    
+
+}
+.Conservar {
+    font-weight: 100;
+    background-color: violet;
+}
+.Conservar2 {
+    font-weight: 100;
+    margin-top: -50px;
+    margin-left: 243px;
+}
+/*Texto do conhecer mais*/
+.Formulamos {
+    text-align:center;
+    margin-left: 19em;
+    font-size: 18px;
+    color: #437131;
+    font-weight: 500;
+    font-family: 'Alegreya', serif;
+}
